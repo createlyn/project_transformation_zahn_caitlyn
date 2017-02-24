@@ -7,7 +7,9 @@ body {
     color: #5b5b5b;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     margin: 0;
     padding: 0;
     text-transform: uppercase;
@@ -29,20 +31,20 @@ h3 {
     font-size: 1.6em;
 }
 
-p, ul, ol {
+p,
+ul,
+ol {
     margin-top: 0;
     line-height: 180%;
 }
 
-ul, ol {
-}
+
 
 a {
     color: #5e5e5e;;
 }
 
-a:hover {
-}
+
 
 #wrapper {
     background: #ffffff url(../img/img05.jpg) repeat;
@@ -76,8 +78,7 @@ a:hover {
     color: #ffffff;
 }
 
-#logo h1, #logo p {
-}
+
 
 #logo h1 {
     line-height: 120px;
@@ -195,13 +196,11 @@ a:hover {
     border: none;
 }
 
-#menu a:hover, #menu .current_page_item a {
+#menu a:hover,
+#menu .current_page_item a {
     background: url(../img/img01.jpg) repeat;
     text-decoration: none;
     color: #ffffff;
-}
-
-#menu .current_page_item a {
 }
 
 /* Page */
@@ -254,8 +253,6 @@ a:hover {
     float: right;
 }
 
-.post .meta a {
-}
 
 .post .entry {
     padding: 0px 0px 40px 0px;
@@ -505,9 +502,6 @@ a:hover {
     width: 1000px;
     height: 340px;
     background: url(../img/img03.png) no-repeat left bottom;
-}
-
-#banner .content {
 }
 
 
