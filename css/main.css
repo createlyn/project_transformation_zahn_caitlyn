@@ -160,7 +160,7 @@ a {
 
 /* Menu */
 
-nav {
+nav#menu {
     float: right;
     width: 500px;
     height: 90px;
@@ -169,7 +169,7 @@ nav {
 
 }
 
-/* nav ul {
+ nav#menu ul {
     float: right;
     margin: 0;
     padding: 20px 0px 0px 0px;
@@ -177,11 +177,11 @@ nav {
     line-height: normal;
 }
 
-nav li {
+nav#menu li {
     float: left;
-} */
+}
 
-nav a {
+nav#menu a {
     line-height: 100px;
     margin-right: 1px;
     padding: 20px;
@@ -197,8 +197,8 @@ nav a {
     border: none;
 }
 
-nav a:hover,
-nav .current_page_item a {
+nav#menu a:hover,
+nav#menu .current_page_item a {
     background: url(../img/img01.jpg) repeat;
     text-decoration: none;
     color: #ffffff;
@@ -498,11 +498,13 @@ article .entry {
 
 #banner {
     margin: 0px auto;
-    width: 1000px;
-    height: 340px;
     background: url(../img/img03.png) no-repeat left bottom;
 }
 
+#banner img {
+    height: auto;
+    width: 100%;
+}
 
 .list-style1 {
     margin: 0px;
