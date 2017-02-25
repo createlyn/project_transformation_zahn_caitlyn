@@ -1,7 +1,7 @@
 body {
-    margin: 0;
+    margin: 5px;
     padding: 0;
-    background: #050505 url(../img/img01.jpg) cover;
+    background: #050505 url(../img/img01.jpg) cover repeat;
     font-family: Arial, Helvetica, sans-serif;
     color: #5b5b5b;
 }
@@ -35,16 +35,13 @@ ol {
     line-height: 180%;
 }
 
-
-
 a {
-    color: #5e5e5e;;
+    color: #5e5e5e;
 }
 
-
-
 #wrapper {
-    background: #ffffff url(../img/img05.jpg) repeat;
+    /*background: #ffffff url(../img/img05.jpg) repeat;*/
+    background-color: #ffffff;
 }
 
 .container {
@@ -68,16 +65,16 @@ a {
     color: #ffffff;
 }
 
-
-
 #logo h1 {
     letter-spacing: -2px;
     font-size: 3.8em;
+    margin: 0;
+    padding: 0;
 }
 
 #logo h1 a {
     color: #1f1f1f;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
 }
 
 #logo p {
@@ -85,6 +82,7 @@ a {
     font: normal 18px Georgia, "Times New Roman", Times, serif;
     font-style: italic;
     color: #8e8e8e;
+    padding-bottom: 1em;
 }
 
 #logo p a {
@@ -173,8 +171,9 @@ a {
 
 /* Page */
 #page {
-    margin: 0 auto;
-    padding: 30px 0;
+    margin: auto;
+    padding: 30px 10px;
+    box-sizing: content-box;
 }
 
 /* Content */
@@ -185,12 +184,11 @@ a {
 .post {
     margin-bottom: 40px;
     border-bottom: 1px solid #e7ebed;
-    width: 90%;
-    margin: 5%;
+    width: 100%;
 }
 
 .post .title {
-    padding: 7px 0px 0px 0px;
+    padding: 7px 0 0 0;
     letter-spacing: -1px;
 }
 
@@ -202,7 +200,7 @@ a {
 
 .post .meta {
     margin-bottom: 30px;
-    padding: 10px 0px 0px 0px;
+    padding: 10px 0 0 0;
     text-align: left;
     font-family: 'Abel', sans-serif;
     font-size: 16px;
@@ -211,7 +209,7 @@ a {
 
 
 .post .entry {
-    padding: 0px 0px 40px 0px;
+    padding: 0 0 40px 0;
     text-align: justify;
 }
 
@@ -244,8 +242,8 @@ a {
 
 /* Sidebar */
 #sidebar {
-    margin: 0px;
-    padding: 30px 0px 0px 10px;
+    margin: 0;
+    padding: 30px 0 0 10px;
     width: 90%;
     height: auto;
     box-sizing: content-box;
@@ -264,14 +262,12 @@ a {
 }
 
 #sidebar li ul {
-    margin: 0px 0px;
     padding-bottom: 30px;
 }
 
 #sidebar li li {
     line-height: 40px;
     border-bottom: 1px solid #e7ebed;
-    margin: 0px 0px;
     border-left: none;
 }
 
@@ -284,12 +280,12 @@ a {
 }
 
 #sidebar li li a {
-    padding: 0px 0px 0px 20px;
+    padding: 0 0 0 20px;
     background: url(../img/img04.jpg) no-repeat left 50%;
 }
 
 #sidebar h2 {
-    letter-spacing: -.5px;
+    letter-spacing: -0.5px;
     font-size: 1.8em;
     color: #222222;
 }
@@ -327,42 +323,9 @@ a {
     color: #5e5e5e;
 }
 
-#marketing {
-    overflow: hidden;
-    margin-bottom: 30px;
-    padding: 20px 0px 10px 0px;
-    border-top: 1px solid #e7ebed;
-    border-bottom: 1px solid #e7ebed;
-}
-
-#marketing .text1 {
-    margin: 0px;
-    padding: 0px;
-    letter-spacing: -2px;
-    text-transform: lowercase;
-    font-size: 34px;
-    color: #345e9b;
-}
-
-
-#marketing .text2 a {
-    display: block;
-    width: 252px;
-    height: 38px;
-    padding: 15px 0px 0px 0px;
-    background: url(../img/img07.jpg) no-repeat left top;
-    letter-spacing: -2px;
-    text-align: center;
-    text-transform: lowercase;
-    font-size: 30px;
-    color: #ffffff;
-}
-
 #banner {
     margin: 0 auto;
     background: url(../img/img03.png) no-repeat left bottom;
-    /*width: 100%;
-    height: auto;*/
 }
 
 #banner img {
@@ -382,9 +345,6 @@ a {
     }
 
     #page {
-        width: 100%;
-        box-sizing: content-box;
-        max-width: 600px;
     }
 
     .links {
@@ -410,7 +370,7 @@ a {
     #content {
         float: right;
         width: 100%;
-        margin-left: -3em;
+        /*margin-left: -3em;*/
     }
 
     #sidebar {
@@ -422,7 +382,6 @@ a {
     #page {
         width: 100%;
         box-sizing: content-box;
-        max-width: 850px;
     }
 
 }
@@ -433,22 +392,17 @@ a {
         width: calc(100% / 6.15);
     }
 
-    /*.post {
-        width: 90%;
-    }*/
-
     #sidebar {
         width: 25%;
         display: inline-block;
     }
 
     #content {
-        width: 70%;
+        width: 67%;
     }
 
     #page {
         width: 100%;
         box-sizing: content-box;
-        max-width: none;
     }
 }
