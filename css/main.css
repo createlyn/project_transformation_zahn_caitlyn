@@ -344,9 +344,6 @@ a {
         margin: auto;
     }
 
-    #page {
-    }
-
     .links {
         text-align: center;
     }
@@ -354,7 +351,6 @@ a {
 
 @media all and (min-width: 850px) {
     body {
-        width: 100%;
     }
 
     #menu {
@@ -404,5 +400,9 @@ a {
     #page {
         width: 100%;
         box-sizing: content-box;
+    }
+
+    .post {
+        width: 90%;
     }
 }
